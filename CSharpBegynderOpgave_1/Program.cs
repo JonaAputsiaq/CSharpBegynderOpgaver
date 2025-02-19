@@ -1,6 +1,39 @@
 ﻿//Lav et "visitkort" Hvor du skriver dit navn, alder, Interesser, Yndlingsdyr og så videre.
 //Udsmyk visitkortet med farver og evt ASCII art.
 
+Console.ForegroundColor = ConsoleColor.DarkGreen;
+Console.WriteLine("========================================");
+Console.WriteLine("|             MIT VISITKORT            |");
+Console.WriteLine("========================================\n");
+Console.ForegroundColor = ConsoleColor.Yellow;
+Console.WriteLine("========================================");
+Console.WriteLine("|               Navn:                   |");
+Console.WriteLine("|             Jonathan                  |");
+Console.WriteLine("========================================");
+Console.WriteLine("========================================");
+Console.WriteLine("|               Alder:                  |");
+Console.WriteLine("|               13 år                   |");
+Console.WriteLine("========================================");
+Console.WriteLine("========================================");
+Console.WriteLine("|           Interesser:                 |");
+Console.WriteLine("|            Computere                  |");
+Console.WriteLine("========================================");
+Console.WriteLine("========================================");
+Console.WriteLine("|            Yndlingsfarve:             |");
+Console.ForegroundColor = ConsoleColor.DarkGreen;
+Console.WriteLine("|              Mørkegrøn                |");
+Console.ForegroundColor = ConsoleColor.Yellow;
+Console.WriteLine("========================================\n");
+Console.ReadKey();
+Console.ResetColor();
+Console.WriteLine("Skrevet 19/02/25");
+Console.WriteLine("\nTryk på en vilkårlig tast for at afslutte...");
+Console.ReadKey();
+Console.Clear();
+Console.WriteLine("Tryk igen på en vilkårlig tast...");
+Console.ReadKey();
+
+
 
 
 
