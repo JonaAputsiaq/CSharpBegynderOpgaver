@@ -37,16 +37,6 @@ Console.ReadKey();
 
 
 
-
-
-
-
-
-
-
-
-
-
 // Eksempler på kommandoer
 
 // Dette er en kommentar og læses ikke at programmet.
