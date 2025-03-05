@@ -48,7 +48,7 @@ Console.WriteLine(navn);
 Console.WriteLine("========================================");
 Console.WriteLine("========================================");
 Console.WriteLine("|               Alder:                  |");
-Console.WriteLine(alder + "år");
+Console.WriteLine(alder + " år");
 Console.WriteLine("========================================");
 if (inkluderInteresser == "ja")
 {
