@@ -1,7 +1,6 @@
 ﻿//Lav et spil hvor man kan gætte et, af computeren, random genereret tal.
 Random random = new Random();
 int resultat = random.Next(0, 101); //Generere et random tal imellem 0 og 100. (0 er med, men 101 er ikke)
-bool erLille = resultat < 50;
 bool snyd = true;
 if(snyd == true)
 {
@@ -14,7 +13,7 @@ if (gæt == resultat)
 {
     Console.WriteLine("Dit gæt, " + gæt + ", var rigtigt");
 }
-else if (erLille == true)
+else if (resultat<50)
 {
     Console.WriteLine("Dit gæt, " + gæt + ", var ikke rigtigt. Du får et hint: Tallet er mindre end 50");
 }
